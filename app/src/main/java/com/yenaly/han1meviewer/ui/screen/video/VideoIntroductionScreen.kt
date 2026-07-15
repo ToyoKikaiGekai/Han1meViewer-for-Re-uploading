@@ -739,7 +739,7 @@ private fun PlaylistBottomSheet(
                             .clip(androidx.compose.foundation.shape.RoundedCornerShape(12.dp))
                             .background(
                                 if (item.isPlaying) {
-                                    MaterialTheme.colorScheme.primaryContainer.copy(alpha = 0.45f)
+                                    MaterialTheme.colorScheme.primaryContainer.copy(alpha = 0.65f)
                                 } else {
                                     MaterialTheme.colorScheme.surface
                                 }
